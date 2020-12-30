@@ -10,7 +10,7 @@
 
 (function() {
     'use strict';
-
+    
     window.addEventListener('yt-page-data-updated', function() {
         const button = document.createElement("button");
         button.innerText = "hahah";
@@ -18,7 +18,7 @@
             navigator.clipboard
             .writeText(`- [${document.title}](${window.location.href})`)
             .then(() => {
-                 alert("Done!");
+                 alert("Copied!");
              })
             .catch(err => {
                  alert(err);
