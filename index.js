@@ -13,7 +13,7 @@
     
     window.addEventListener('yt-page-data-updated', function() {
         const button = document.createElement("button");
-        button.innerText = "hahah";
+        button.innerText = "Bookmark as markdown!";
         button.addEventListener("click", function() {
             navigator.clipboard
             .writeText(`- [${document.title}](${window.location.href})`)
