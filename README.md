@@ -9,7 +9,7 @@ bookmark-as-markdown
 - [ ] Chrome extension
 - [ ] Fallback to `exeCommand`
 ```
-if (typeof(navigator.clipboard)=='undefined') {
+if (typeof(navigator.clipboard) == typeof (void 0)) {
     console.log('navigator.clipboard');
     var textArea = document.createElement("textarea");
     textArea.value = linkToGo;
