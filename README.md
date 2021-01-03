@@ -7,7 +7,7 @@ bookmark-as-markdown
 
 ### TODOs
 - [ ] Chrome extension
-- [ ] Fallback to `exeCommand`
+- [ ] Fallback to `execCommand`
 ```
 if (typeof(navigator.clipboard) == typeof (void 0)) {
     console.log('navigator.clipboard');
