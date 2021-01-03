@@ -36,6 +36,7 @@
         button.style.bottom = "23px";
         button.style.zIndex = "997";
         button.style.border = "none";
+        button.style.backgroundColor = "white";
         button.style.boxShadow = "0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23)";
         button.addEventListener("click", function() {
             if (!navigator.clipboard) {
