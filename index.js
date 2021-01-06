@@ -14,7 +14,7 @@
     const hostname = window.location.hostname;
     const button = createButton();
 
-    if (hostname == "www.youtube.com") {
+    if (hostname == "www.youtube.com" && RegExp('\/watch').test(window.location.pathname)) {
         window.addEventListener('yt-page-data-updated', function() {
             document.body.appendChild(button);
         });
