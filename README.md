@@ -6,4 +6,4 @@ bookmark-as-markdown
 - [x] Fallback to generic
 
 ### TODOs
-- [ ] Chrome extension
+- [ ] Chrome extension, use a converter instead
