@@ -40,6 +40,7 @@
         button.style.border = "none";
         button.style.padding = "1px 6px";
         button.style.backgroundColor = "white";
+        button.style.backgroundImage = "unset";
         button.style.boxShadow = "0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23)";
         button.addEventListener("click", function() {
             if (navigator.clipboard) {
