@@ -1,16 +1,7 @@
-// ==UserScript==
-// @name         Bookmark as markdown
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        *://*/*
-// @grant        none
-// ==/UserScript==
+'use strict';
 
 (function() {
-    'use strict';
-
+  function script() {
     const hostname = window.location.hostname;
     const button = createButton();
 
@@ -73,4 +64,13 @@
         });
         return button;
     }
-})();
+  }
+
+  function inject(fn) {
+    const script = document.createElement('script');
+    script.text = `(${fn.toString()})();`;
+    document.documentElement.appendChild(script);
+  }
+
+  inject(script);
+})()
