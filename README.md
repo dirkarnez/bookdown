@@ -7,3 +7,4 @@ bookmark-as-markdown
 
 ### TODOs
 - [ ] Chrome extension, use a converter instead
+  - https://github.com/yeoman/generator-chrome-extension
