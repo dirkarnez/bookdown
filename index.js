@@ -27,6 +27,8 @@
         button.style.right = "23px";
         button.style.bottom = "23px";
         button.style.zIndex = "997";
+        button.style.outline = "none";
+        button.style.borderRadius = "0";
         button.style.color = "black";
         button.style.border = "none";
         button.style.padding = "1px 6px";
