@@ -1,5 +1,5 @@
 {
-  "name": "Bookmark as Markdown",
+  "name": "Bookdown",
   "description" : "Bookmark as Markdown",
   "browser_action": {
     "default_icon": "icon.png"
